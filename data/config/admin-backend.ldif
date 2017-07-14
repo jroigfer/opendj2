@@ -1,0 +1,44 @@
+dn: cn=admin data
+objectClass: ds-cfg-branch
+objectClass: top
+cn: admin data
+entryUUID: 46e489f6-1f92-3120-990f-54a178e95b21
+
+dn: cn=instance keys,cn=admin data
+objectClass: ds-cfg-branch
+objectClass: top
+cn: instance keys
+entryUUID: 66ceef12-f0d6-355e-9e9b-9bdcfe536d8c
+
+dn: cn=secret keys,cn=admin data
+objectClass: ds-cfg-branch
+objectClass: top
+cn: secret keys
+entryUUID: 26176404-8825-3f77-9efd-c52bd4061f3b
+
+dn: cn=Administrators,cn=admin data
+objectClass: top
+objectClass: groupofurls
+memberURL: ldap:///cn=Administrators,cn=admin data??one?(objectclass=*)
+cn: Administrators
+description: Group of identities which have full access.
+entryUUID: 80faa47a-77d6-3c78-a3c1-ea6ccbd2f735
+
+dn: cn=Server Groups,cn=admin data
+objectClass: ds-cfg-branch
+objectClass: top
+cn: Server Groups
+entryUUID: 9ee2aa25-d738-31fc-9fde-145fe9a53ae0
+
+dn: cn=all-servers,cn=Server Groups,cn=admin data
+objectClass: top
+objectClass: groupOfUniqueNames
+cn: all-servers
+entryUUID: 00450d2d-26b0-3d92-b9e8-f616539697fa
+
+dn: ds-cfg-key-id=42AEA07AB61A35EF404417AA295628D8,cn=instance keys,cn=admin data
+objectClass: top
+objectClass: ds-cfg-instance-key
+ds-cfg-key-id: 42AEA07AB61A35EF404417AA295628D8
+ds-cfg-public-key-certificate;binary:: MIIC7DCCAdSgAwIBAgIEKrkGXjANBgkqhkiG9w0BAQUFADA4MR8wHQYDVQQKExZPcGVuREogUlNBIENlcnRpZmljYXRlMRUwEwYDVQQDEwxjNTVmMDY2NzU3NDUwHhcNMTYwNTEwMTU0MjUzWhcNMzYwNTA1MTU0MjUzWjA4MR8wHQYDVQQKExZPcGVuREogUlNBIENlcnRpZmljYXRlMRUwEwYDVQQDEwxjNTVmMDY2NzU3NDUwggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQCT9q8kvEo9mixYg9CKK2gw83MrwZuqBRluiIUmtvdSo6r1pybBsvSSSgjJVg9QIV/Zc8ql/kSeSLd44AnPEq+AIQvIDsmxg16fl0nseA4J74tcmlYZVdWvFGXzJIKgDvR61VKYt3SNjudUwpfnwk9xGhkpc4HsU6MkjHdFkVZO6UYmztbGkj4zCEtT2pad6dtQRh3QN7RAowN/x/tGHyXkcP/z1CgSLxmDmgeMS5nawop1rGpUQ0cASgprITs+OI+8rD7A7S5XCWyXMr6eHMJ/PPs4itgk4q/OJcuGOpfUS3vfOClThnR4/rq+2oFxYNqN2yjq0HvKsTXpw+u791e5AgMBAAEwDQYJKoZIhvcNAQEFBQADggEBADI8+ZwicBRIiEKeR8KfnTyPA0c8BV9+qBLJzuw0MmYx4nT/I20dsrcj177pKXNEA3cavLm7UvdbYN7POSAtUkA+oN43lRBfAk3v3vmhYQT9dZRNZFoAU54WW05HIqSMqPrbrzEMewNYWtQpc3DFFKYfpdFx3bYr2IFUhV73zduTOgpor64+UwBvHv89V0jdnHek29iYQ0vHLCJkvYr8bWIdBw2vopY58kFqwYZ6E/TVz/bdo+3H+w4rtWjOFjUGp/zjnI7N4P4eJqIsvlGCaPJtNVgQ55JHoRbr8TTo2KYvMXQXowyPjVmVfKv7Vi24ZXfgLsbkQacI4ccZuf0bd1c=
+
